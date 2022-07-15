@@ -1,0 +1,237 @@
+.webmadewell {
+  background-color: white;
+}
+body {
+  margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.tambah{
+  float: left;
+  margin-left: 10%;
+
+}
+.sample-header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-image: url("paralax.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.sample-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: MidnightBlue;
+  opacity: 0.3;
+}
+.sample-header-section {
+  position: relative;
+  padding: 15% 0 10%;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  font-family: Courier;
+}
+h1 {
+  font-weight: 500;
+}
+h2 {
+  font-weight: 400;
+}
+.sample-section-wrap {
+  position: relative;
+  background-color: #ACB6B7ff;
+}
+.sample-section {
+  position: relative;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+}
+.sample-section p{
+  color: #040810ff;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+.navbar ul li a{
+    color: #1d1d24;
+    position: relative;
+    padding: 5px 0;
+}
+.navbar ul li a:hover{
+    color: #2E3946ff;
+}
+.navbar ul li a:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #2E3946ff;
+    transition: .3s;
+    bottom: 0;
+}
+.navbar ul li a:hover:after{
+    width: 100%;
+}
+.content h2{
+    color: #1f1f25;
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 90px;
+    text-transform: inherit;
+    width: 70%;
+}
+.content h2 span{
+    color: #2E3946ff;
+}
+.content p{
+    width: 55%;
+    color: #020107ff;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.formu{
+    width: 100%;
+}
+.formu h2{
+    border: 1px solid #ddd;
+    display: inline-block;
+    padding: 5px;
+}
+.formu label{
+    color: #333;     
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    margin-bottom: 5px;
+}
+.formu input[type="text"]{
+    border: none;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 15px;
+    padding: 0.5em 1em 0.5em 0;
+}
+.formu button {
+  background: #2E3946ff;
+  border: 1px solid #2E3946ff;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.formu button:hover,
+.formu button:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #2E3946ff;
+}
+
+.formu button:active {
+  opacity: .5;
+}
+.anjay{
+    height: 100%;
+    
+}
+.ubh{
+    width: 100%;
+}
+.ubh h2{
+    border: 1px solid #ddd;
+    display: inline-block;
+    padding: 5px;
+}
+.ubh label{
+    color: #333;     
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    margin-bottom: 5px;
+}
+.ubh input[type="text"]{
+    border: none;
+    border-bottom: 1px solid #ddd;
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 15px;
+    padding: 0.5em 1em 0.5em 0;
+}
+.ubh button {
+  background: #2E3946ff;
+  border: 1px solid #2E3946ff;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transubh: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+.ubh button:hover,
+.ubh button:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #2E3946ff;
+}
+
+.ubh button:active {
+  opacity: .5;
+}
+.njay{
+    height: 100%;
+    
+}
